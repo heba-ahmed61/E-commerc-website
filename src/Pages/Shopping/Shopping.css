@@ -1,0 +1,323 @@
+.product-image img{
+
+    width: 100%;
+}
+
+.products{
+
+    margin-top: 100px;
+}
+
+.wrapper{
+
+    width: 80%;
+    margin: 0 auto;
+}
+.product-title{
+
+    font-size: 17px;
+    
+}
+.product-title:hover{
+
+    color: #717FE0;
+    cursor: pointer;
+}
+.product-price{
+
+    font-size: 16px;
+}
+.product-price:hover{
+    color:#717FE0 ;
+}
+
+.cart-button{
+
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 6px 15px;
+    margin-right: 10px;
+
+}
+.view-button{
+
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+    padding: 6px 15px;
+    font-size: 13px;
+}
+
+.cart-button:hover{
+
+    background-color: white;
+    color: black;
+    transition: all .7s ease;
+}
+
+.view-button:hover{
+
+    background-color: black;
+    color: white;
+    transition: all .7s ease;
+    
+
+}
+.product-image{
+
+    overflow: hidden;
+}
+.product-image img:hover{
+
+    transform: scale(1.1);
+    transition: all .7s ease;
+}
+
+
+
+.react-reveal.modal-content{
+
+    border: none;
+    background-color: transparent;
+    margin-top: 50px;
+    
+    
+}
+.modal-image img{
+
+    width: 100%;
+}
+
+
+.modalProduct-details{   font-size: 25px;}
+
+
+.desc{
+    font-size: 17px;
+}
+.price ,.availableSizes{
+    font-size: 18px;
+}
+
+.availableSizes button{
+
+    background-color: black;
+    color: white;
+    
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    
+}
+.cart button{
+    margin-top: 30px ;
+}
+.react-reveal.close-button{
+
+    font-size: 20px;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+
+.load-more-button {
+
+    margin: 70px 0 20px;
+}
+
+.load-more-button a{
+
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+    padding: 6px 15px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.load-more-button a:hover{
+
+    background-color: white;
+    color: black;
+    transition: all .7s ease;
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1150px){
+
+    .product-title{
+
+        font-size: 12px;
+    
+        
+    }
+    .product-price{
+
+        font-size: 13px;
+    }
+
+    .cart-button{
+
+        border:1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        padding: 4px 10px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+        
+    
+    }
+
+    .view-button{
+
+        border: 1px solid black;
+        background-color: white;
+        color:black;
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+    .modalProduct-details{
+
+        font-size: 20px;
+
+    } 
+    
+    .desc{
+        font-size: 14px;
+    }
+    .price ,.availableSizes{
+        font-size: 13px;
+    }
+
+    .availableSizes button{
+
+        background-color: black;
+        color: white;
+        margin: 0 10px;
+        padding: 0 10px;
+        border: none;
+        outline: none;
+    }
+
+    
+
+}
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+
+    .product-title{
+
+        font-size: 13px;
+    
+        
+    }
+
+    .product-price{
+
+        font-size: 13px;
+        margin-top: -5px;
+    }
+
+    
+    .cart-button{
+
+        border:1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        padding: 4px 10px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+        margin-top: -5px;
+    
+    }
+
+    .view-button{
+
+        border: 1px solid black;
+        background-color: white;
+        color:black;
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+    .modalProduct-details{
+
+        font-size: 16px;
+
+    } 
+    
+    .desc{
+        font-size: 16px;
+    }
+    .price ,.availableSizes{
+        font-size: 16px;
+    }
+
+    .availableSizes button{
+
+        background-color: black;
+        color: white;
+        margin: 0 5px;
+        padding: 0 5px;
+        border: none;
+        outline: none;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:319px){
+
+
+    .product-title{
+
+        font-size: 13px;
+    
+        
+    }
+
+    .product-price{
+
+        font-size: 13px;
+        margin-top: -5px;
+    }
+
+    
+    .cart-button{
+
+        border:1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        padding: 4px 10px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+        margin-top: -5px;
+    
+    }
+
+    .view-button{
+
+        border: 1px solid black;
+        background-color: white;
+        color:black;
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+
+}

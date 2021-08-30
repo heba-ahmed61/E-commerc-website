@@ -1,0 +1,94 @@
+/*header style starts*/
+
+.header-image img{
+
+    width: 100%;
+}
+/*header style ends*/
+
+
+/*our-story section style starts*/
+
+.our-story-image img{
+
+    width: 100%;
+
+}
+
+.our-story-image img:hover{
+
+    transform: scale(1.1);
+    transition: all  .7s ease;
+
+}
+
+
+
+.about-title h2{
+
+    font-weight:  bold;
+}
+.our-story-details h3{
+
+    font-weight:  bold;
+}
+
+.pragraph{
+
+    color: #888;
+    line-height: 1.7857
+}
+
+/*our-story section style ends*/
+
+
+/*our-mission section style starts*/
+
+.our-mission-image img{
+
+    width: 80%;
+}
+.our-mission-image,
+.our-story-image
+
+{
+
+    overflow: hidden;
+}
+.our-mission-image img:hover{
+
+    transform: scale(1.1);
+    transition: all  .7s ease;
+}
+
+/*our-mission section style ends*/
+
+
+/*our-team section style starts*/
+
+
+.our-team-image img {
+
+    width: 100%;
+}
+/*our-team section style ends*/
+
+/*partners section style starts*/
+
+.partners-image{
+
+    text-align: center;
+}
+/*partners section style ends*/
+
+
+
+@media only screen and (min-width:992px) and (max-width:1024px){
+
+    .pragraph{
+
+        line-height: 1.4;
+    }
+}
+
+

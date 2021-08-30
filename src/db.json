@@ -1,0 +1,179 @@
+{
+    "products":[
+
+        {
+            "id": 1,
+            "title": "Front Pocket Jacket",
+            "image":"/images/product1.jpg",
+            "category":"Jackets",
+            "price":"34.75",
+            "availableSizes":["SM" , "L"],
+            "brand":"zara",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+        
+
+
+
+        },
+        {
+
+            "id": 2,
+            "title": "Classical Jacket",
+            "image":"/images/product2.jpg",
+            "category":"Jackets",
+            "price":"52.66",
+            "availableSizes":["L" , "XL"],
+            "brand":"bershka",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+
+        },
+
+        {
+            "id": 3,
+            "title": "Top With Sleeve",
+            "image":"/images/product3.jpg",
+            "category":"Tops",
+            "price":"18.49",
+            "availableSizes":[ "L" , "M"],
+            "brand":"zara",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+
+            
+        },
+
+        {
+            "id": 4,
+            "title": "orange Dress",
+            "image":"/images/product10.jpg",
+            "category":"Dresses",
+            "price":"130.00",
+            "availableSizes":["SM" ,  "L"],
+            "brand":"asos",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+        } ,
+
+        {
+            "id": 5,
+            "title": "Leather Jacket",
+            "image":"/images/product11.jpg",
+            "category":"Jackets",
+            "price":"90.00",
+            "availableSizes":["M" ,  "L"],
+            "brand":"zara",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+        } ,
+
+        {
+
+            "id": 6,
+            "title": "Classical Dress",
+            "image":"/images/product4.jpg",
+            "category":"Dresses",
+            "price":"120.00",
+            "availableSizes":["M"   ,"L"],
+            "brand":"bershka",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+        },
+
+        {
+
+            "id": 7,
+            "title": "Classic Trench Jacket",
+            "image":"/images/product5.jpg",
+            "category":"Jackets",
+            "price":"160.00",
+            "availableSizes":["XL"  , "SM"],
+            "brand":"asos",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+        },
+
+        {
+
+            "id": 8,
+            "title": "Esprit Ruffle Top",
+            "image":"/images/product6.jpg",
+            "category":"Tops",
+            "price":"50.00",
+            "availableSizes":["SM" , "M" ],
+            "brand":"bershka",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+
+        },
+
+        {
+
+            "id": 9,
+            "title": "Summer Dress",
+            "image":"/images/product7.jpg",
+            "category":"Dresses",
+            "price":"180.00",
+            "availableSizes":[ "M" , "XL"],
+            "brand":"zara",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+
+
+
+        },
+
+        {
+
+            "id": 10,
+            "title": "Summer Dress",
+            "image":"/images/product8.jpg",
+            "category":"Dresses",
+            "price":"160.00",
+            "availableSizes":[  "L" , "M"],
+            "brand":"asos",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+        },
+
+        {
+            "id": 11,
+            "title": "Gray Top",
+            "image":"/images/product9.jpg",
+            "category":"Tops",
+            "price":"110.00",
+            "availableSizes":["SM" ,  "XL"],
+            "brand":"asos",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+        },
+        
+    
+
+    
+
+        {
+            "id": 12,
+            "title": "Black Top",
+            "image":"/images/product12.jpg",
+            "category":"Tops",
+            "price":"70.00",
+            "availableSizes":["SM" ,  "M"],
+            "brand":"bershka",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
+
+
+        } 
+
+
+    ]
+}

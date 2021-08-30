@@ -1,0 +1,545 @@
+/* Header section style starts */
+
+.item{
+
+    position: relative;
+}
+
+
+
+.item .image img{
+
+    width: 100%;
+}
+
+.carousel-title{
+
+    position: absolute;
+    top: 170px;
+    left:110px;
+    color: #333;
+}
+
+.carousel-title h2{
+
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.shop-link{
+
+    position: absolute;
+    top:350px;
+    left: 110px;
+}
+.shop-link a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    background-color: #717fe0;
+    padding: 10px 40px;
+    font-weight: bold;
+    
+}
+.shop-link a:hover{
+
+    color: #717fe0;
+    background-color: #333;
+    transition: all .7s ease;
+
+
+}
+
+/* Header section style ends */
+
+
+/* Category section style starts */
+
+.content{
+    position: relative;
+}
+
+.category-section{
+
+    margin: 50px 0;
+}
+.category-image{
+
+    overflow: hidden;
+
+}
+.category-image img{
+
+    width: 100%;
+
+    
+}
+.category-image img:hover{
+
+    transform: scale(1.1);
+    transition: all .7s ease;
+}
+.layout{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 ,0 ,0 ,.5);
+}
+
+.category-link a{
+
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 6px 15px;
+    font-size: 13px;
+
+}
+.category-link a:hover{
+
+    color: black;
+    transition: all .7s ease;
+    background-color: white;
+
+
+}
+
+/* Category section style starts */
+
+
+/* Trending products section style starts*/
+.carousel-item-image img{
+
+    width: 100%;
+}
+
+.owl-nav{
+
+    text-align: center;
+    font-size: 70px;
+}
+.owl-nav button{
+
+    border: none ;
+}
+.owl-prev{
+
+    color: gray !important;
+    position: absolute !important;
+    top: 30%;
+    transform: translateY(-30%);
+    left: 0;
+    margin-left: -30px;
+
+}
+
+.slider .owl-item.active .carousel-title{
+    animation:fadeInLeft ease 1s ;
+}
+.slider .owl-item.active .shop-link{
+
+
+    animation:zoomIn ease 2s ;
+
+}
+.slider .owl-item.active {
+
+    animation:animate__rotateOut ease 1s ;
+}
+.owl-next{
+
+    color: gray !important;
+    position: absolute !important;
+    top: 30%;
+    transform: translateY(-30%);
+    right:  0;
+    margin-right: -30px;
+
+
+}
+
+
+.show-button a{
+
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+    padding: 6px 15px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.show-button a:hover{
+
+    background-color: white;
+    color: black;
+    transition: all .7s ease;
+}
+
+/* Trending products section  style start ends*/
+
+/*Why us section style statrs*/
+.why-us-section{
+
+    margin: 70px 0;
+}
+
+.why-us-section p{
+
+    font-size: 17px;
+    margin-top: 30px;
+    
+}
+
+.why-us-icon {
+
+    font-size: 60px;
+}
+
+/*Why us section style ends*/
+
+
+/*barnds section style starts */
+
+.brand-image img{
+
+    width: 60%;
+}
+
+.brands{
+
+    background-color: #f5f7f9 ;
+    padding:  20px 0 40px 0;
+}
+
+/*barnds section style ends */
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1300px){
+
+    .carousel-title{
+
+        
+        left:70px;
+    
+        
+    }
+    
+    .shop-link{
+
+    
+        left: 70px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1023px){
+
+    .owl-prev{
+
+    
+        margin-left: -25px;
+    
+    }
+    .owl-next{
+    
+    
+        margin-right: -25px;
+    
+    
+    }
+    .owl-nav{
+
+        text-align: center;
+        font-size: 50px;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+    .carousel-title{
+
+        position: absolute;
+        top:90px;
+        left:40px;
+        color: #333;
+        
+    }
+    .carousel-title h2{
+
+        font-size: 28px;
+    }
+
+    .shop-link{
+
+        position: absolute;
+        top:170px;
+        left: 40px;
+        margin-top: 20px;
+    }
+    .shop-link a{
+
+        padding: 5px 30px;
+        font-size: 17px;
+    }
+
+    .brand-image img {
+
+        width: 40%;
+    }
+
+
+}
+
+@media only screen and (min-width:601px) and (max-width:767.9px){
+
+    .carousel-title{
+
+        position: absolute;
+        top:50px;
+        left:90px;
+        color: #333;
+        
+    }
+
+    .shop-link{
+
+        position: absolute;
+        top:130px;
+        left: 90px;
+        margin-top: 20px;
+    }
+
+    .carousel-title h2{
+
+        font-size: 25px;
+    }
+
+    .shop-link a{
+
+        text-decoration: none;
+        font-size: 14px;
+        color: #333;
+        background-color: #717fe0;
+        padding: 10px 27px;
+    }
+    .show-btn a{
+
+        font-size: 14px;
+        padding:10px 27px ;
+    }
+
+
+
+}
+@media only screen and (min-width:481px) and (max-width:767.9px){
+
+    .brand-image img{
+
+        width: 25%;
+    
+    }
+
+
+}
+@media only screen and (min-width:481px) and (max-width:600px){
+
+    .carousel-title{
+
+        position: absolute;
+        top:50px;
+        left:10px;
+        color: #333;
+        
+    }
+    .carousel-title h2{
+
+        font-size: 20px;
+    }
+
+    .shop-link{
+
+        
+        left: 13px;
+        top:120px;
+    
+    }
+
+    .shop-link a{
+
+        text-decoration: none;
+        font-size: 14px;
+        color: #333;
+        background-color: #717fe0;
+        padding: 7px 24px;
+    }
+
+    .show-btn a{
+
+        padding: 10px 27px;
+        font-size: 14px;
+    }
+
+    .brand-image img {
+
+        width: 30%;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .carousel-title{
+
+        position: absolute;
+        top:30px;
+        left:8px;
+        color: #333;
+        
+    }
+    .carousel-title h2{
+
+        font-size: 16px;
+    }
+
+    .shop-link{
+
+        position: absolute;
+        top:80px;
+        left: 8px;
+    }
+
+
+.shop-link a{
+
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+    background-color: #717fe0;
+    padding: 3px 8px;
+
+}
+.show-btn a{
+
+    padding: 3px 8px;
+    font-size: 14px;
+
+
+
+}
+.carousel-item-title h5{
+
+    font-size: 12px;
+}
+
+.carousel-item-price h6{
+
+    font-size: 12px;
+}
+
+.why-us-icon{
+
+    font-size: 35px;
+}
+
+.brand-image img{
+
+    width: 30%;
+
+}
+
+}
+
+
+@media only screen and (max-width:319px) {
+
+    .carousel-title{
+
+        position: absolute;
+        top:30px;
+        left:8px;
+        color: #333;
+        
+    }
+    .carousel-title h2{
+
+        font-size: 14px;
+    }
+
+    .shop-link{
+
+        position: absolute;
+        top:80px;
+        left: 8px;
+    }
+
+
+.shop-link a{
+
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    background-color: #717fe0;
+    padding: 3px 8px;
+}
+
+.show-btn a{
+
+    padding: 4px 10px;
+    font-size: 14px;
+
+
+}
+.carousel-item-title h5{
+
+    font-size: 12px;
+}
+
+.carousel-item-price h6{
+
+    font-size: 12px;
+}
+
+.why-us-icon{
+
+    font-size: 35px;
+}
+
+.brand-image img{
+
+    width: 30%;
+
+}
+
+
+}
+
+

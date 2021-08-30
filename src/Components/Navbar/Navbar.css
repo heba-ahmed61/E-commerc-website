@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #333;
+    padding: 10px 0 9px ;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+
+    
+
+    
+
+
+}
+.nav .nav-content{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo .logo-link{
+
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.nav-logo .logo-link:hover{
+
+    color:#717fe0;
+    transition: all .7s ease;
+}
+.nav-links{
+    margin-top: 10px;
+    color: white;
+
+}
+.nav-links ul li{
+
+    display: inline-block;
+    padding: 0 25px;
+
+    
+}
+.nav-links ul li a{
+
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+
+}
+.nav-links ul li a.active{
+
+    color: #717fe0;
+
+
+}
+
+.nav-links ul li a:hover{
+
+    color:#717fe0;
+    transition: all .7s ease;
+
+}
+
+.nav-icon {
+    display: none;
+}
+
+.cart-icon{
+
+    font-size: 16px;
+    position: relative;
+    align-items: center;
+    
+
+}
+
+.cart-icon i{
+    color: white;
+    position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+}
+.cart-icon i:hover{
+
+    color: #717fe0;
+    transition: all .7s ease;
+}
+.cart-icon div{
+
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    
+    
+    
+
+    
+}
+.cart-icon div:hover{color: #717fe0;
+    transition: all .7s ease;
+}
+
+.cart-icon a{
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:767.9px){
+
+
+    .nav{
+        position: relative;
+        padding: 22px 0 18px;
+    }
+    .nav-icon{
+
+        display: block;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        right: 5%;
+    }
+    .nav-links{
+        background-color: #333;
+        width: 100%;
+        position: absolute;
+        top:54px;
+        left: -100%;
+        height: 50vh;
+        z-index: 2;
+        transition: all .7s ease;
+    
+    }
+    .nav-links ul{
+
+        background-color: #333;
+        width: 100%;
+        z-index: 2;
+    
+    }
+    .nav-links ul li{
+
+        background-color: #333;
+        width: 100%;
+        padding: 27px 0;
+        z-index: 2;
+        text-align: center;
+        
+    }
+
+    .nav-links ul li a {
+
+        font-size:20px;
+        line-height: 30px;
+        
+        
+    }
+
+    .nav-logo .logo-link{
+
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+    
+    }
+
+    .nav-links.active{
+        left: 0;
+        transition: all .7s ease;
+    }
+
+    .cart-icon{
+
+        font-size: 16px;
+        position: absolute;
+        right: 22%;
+        
+        
+    
+    }
+
+
+    
+}
+
+@media only screen and (max-width:319px) {
+    
+
+    .nav{
+        position: relative;
+        padding: 22px 0 18px;
+    }
+    .nav-icon{
+
+        display: block;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        right: 5%;
+    }
+    .nav-links{
+        background-color: #333;
+        width: 100%;
+        position: absolute;
+        top:54px;
+        left: -100%;
+        height: 50vh;
+        z-index: 2;
+        transition: all .7s ease;
+    
+    }
+    .nav-links ul{
+
+        background-color: #333;
+        width: 100%;
+        z-index: 2;
+    
+    }
+    .nav-links ul li{
+
+        background-color: #333;
+        width: 100%;
+        padding: 27px 0;
+        z-index: 2;
+        text-align: center;
+        
+    }
+
+    .nav-links ul li a {
+
+        font-size:20px;
+        line-height: 30px;
+        
+        
+    }
+
+    .nav-logo .logo-link{
+
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+    
+    }
+
+    .nav-links.active{
+        left: 0;
+        transition: all .7s ease;
+    }
+
+    .cart-icon{
+
+        font-size: 16px;
+        position: absolute;
+        right: 22%;
+        
+        
+    
+    }
+
+}
