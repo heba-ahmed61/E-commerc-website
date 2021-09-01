@@ -135,7 +135,9 @@ class Cart extends Component{
             <div className="cart-products">
                 <p>{ cartItems.length == 0 ?
                 <div className="cartTitle ">
-                    <div className="container">
+                    <div className="container" style={{height:"90vh"}} >
+
+                
 
                     <div className="bag-icon text-center my-5">
                     <i class="fas fa-shopping-bag "></i>
