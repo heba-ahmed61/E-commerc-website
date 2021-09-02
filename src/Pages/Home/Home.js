@@ -58,7 +58,7 @@ class Home extends Component{
                     dots={false}
                     loop={true}
                     autoplay={true}
-                    autoplayTimeout={2000}
+                    autoplayTimeout={3000}
                     >
                         <div className="item">
                             <div className="image">
