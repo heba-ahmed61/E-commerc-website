@@ -108,8 +108,8 @@ class Home extends Component{
                 <div className="row">
                     <div className="col-md-4 col-12 mb-4">
                         <div className="content">
-                        <div className="category-image" >
-                            <img src="/images/model1.jpg"></img>
+                        <div className="category-image text-center" >
+                            <img src="/images/model-collection.jpg"></img>
                         </div>
                         <div className="category-desc text-center my-3 " >
                             <h5 >Dresses Collection</h5>
@@ -123,7 +123,7 @@ class Home extends Component{
 
                     <div className="col-md-4 col-12 mb-4">
                         <div className="content">
-                        <div className="category-image" >
+                        <div className="category-image text-center  " >
                             <img src="/images/model2.jpg"></img>
         
                         </div>
@@ -140,7 +140,7 @@ class Home extends Component{
                     </div>
 
                     <div className="col-md-4 col-12 mb-4">
-                        <div className="category-image" >
+                        <div className="category-image text-center" >
                             <img src="/images/model3.jpg"></img>
 
                         </div>

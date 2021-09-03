@@ -7,8 +7,8 @@
             "image":"/images/product1.jpg",
             "category":"Jackets",
             "price":"34.75",
-            "availableSizes":["SM" , "L"],
-            "brand":"zara",
+            "availableSizes":["Xl" , "M"],
+            "brand":"bershka",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
         
 
@@ -23,7 +23,7 @@
             "category":"Jackets",
             "price":"52.66",
             "availableSizes":["L" , "XL"],
-            "brand":"bershka",
+            "brand":"zara",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  "
 
 

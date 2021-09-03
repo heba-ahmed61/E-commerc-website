@@ -74,6 +74,8 @@
     width: 100%;
 
     
+
+    
 }
 .category-image img:hover{
 
@@ -346,6 +348,15 @@
         padding:10px 27px ;
     }
 
+    .category-image img{
+
+        width: 70%;
+    
+        
+    
+        
+    }
+
 
 
 }
@@ -400,6 +411,15 @@
     .brand-image img {
 
         width: 30%;
+    }
+
+    .category-image img{
+
+        width: 70%;
+    
+        
+    
+        
     }
 
 
@@ -475,8 +495,17 @@
     width: 30%;
 
 }
+.category-image img{
+
+    width: 70%;
+
+    
+
+    
+}
 
 }
+
 
 
 @media only screen and (max-width:319px) {
