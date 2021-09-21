@@ -157,11 +157,13 @@ filterSize = (e)=>{
   /* increment quantity of product functuion starts*/
   increment=(item)=>{
     item.count = item.count+1
+    if (item.count>=0){
     this.setState({
 
       count:item.count
     })
-  
+    }
+    
   
 
   }
