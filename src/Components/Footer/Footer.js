@@ -69,7 +69,7 @@ class Footer extends Component{
                     <hr/>
 
                     <div className="text-center py-4">
-                            <h6>All Copyrights &copy; Reseved To Fahionista 2021  </h6>
+                            <h6>All Copyrights &copy; Reseved To Fashionista 2021  </h6>
                         </div>
                     
 
