@@ -152,7 +152,7 @@ class Cart extends Component{
 
 
                 
-                <p className="text-center cartTitle   ">{cartItems.length} products In  Your Cart</p>}</p>
+                <p></p>}</p>
                 <div className="container">
                     {cartItems.length !==0 && <div className="back-btn">
                         <Link to ="/shopping">
