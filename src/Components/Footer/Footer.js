@@ -43,10 +43,10 @@ class Footer extends Component{
 
                         <div className="col-md-4 col-12 text-center footer-links pb-3">
                             <h6 className="mb-4">Quik Links</h6>
-                            <div className="link"><Link exact to = "/">Home</Link></div>
-                            <div className="link"><Link exact to = "/about">About</Link></div>
-                            <div className="link"><Link exact to = "/shopping">Shopping</Link></div>
-                            <div className="link"><Link exact to = "/contact">Contact</Link></div>
+                            <div className="link"><Link exact to = "/" onClick={()=> window.scroll(0,0)}  >Home</Link></div>
+                            <div className="link"><Link exact to = "/about" onClick={()=> window.scroll(0,0)}>About</Link></div>
+                            <div className="link"><Link exact to = "/shopping" onClick={()=> window.scroll(0,0)}>Shopping</Link></div>
+                            <div className="link"><Link exact to = "/contact" onClick={()=> window.scroll(0,0)}>Contact</Link></div>
 
 
 
