@@ -68,7 +68,9 @@ class Shopping extends Component{
                     </div>
                     <div className="product-buttons text-center">
                         <Link to="/cart">
-                        <button className="cart-button" onClick={()=>this.props.addToCart(product)}>Add To Cart</button>
+                        <button className="cart-button" onClick={()=>{
+                        window.scroll(0 , 0) ;
+                            this.props.addToCart(product)}}>Add To Cart</button>
                         </Link>
                         <button className="view-button" onClick={()=>this.openModal(product)}>View</button>
                     </div>
