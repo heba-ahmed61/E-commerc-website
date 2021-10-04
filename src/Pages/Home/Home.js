@@ -115,7 +115,7 @@ class Home extends Component{
                             <h5 >Dresses Collection</h5>
                         </div>
                         <div className="category-link mt-4 mb-3  text-center">
-                            < Link exact to ="/shopping">SHOP NOW</Link>
+                            < Link exact to ="/shopping" onClick={()=> window.scroll(0,0)}>SHOP NOW</Link>
                         </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ class Home extends Component{
                             <h5 >Tops Collection</h5>
                         </div>
                         <div className="category-link mt-4 mb-3  text-center">
-                            < Link exact to ="/shopping">SHOP NOW</Link>
+                            < Link exact to ="/shopping" onClick={()=> window.scroll(0,0)}>SHOP NOW</Link>
                         </div>
 
 
@@ -148,7 +148,7 @@ class Home extends Component{
                             <h5 >Jackets  Collection</h5>
                         </div>
                         <div className="category-link mt-4 mb-3  text-center">
-                            < Link exact to ="/shopping">SHOP NOW</Link>
+                            < Link exact to ="/shopping" onClick={()=> window.scroll(0,0)}>SHOP NOW</Link>
                         </div>
 
                     </div>  
@@ -248,7 +248,7 @@ class Home extends Component{
 
 
                 <div className="show-button my-5 text-center">
-                    <Link exact to ="/shopping">SHOW MORE</Link>
+                    <Link exact to ="/shopping" onClick={()=> window.scroll(0,0)}>SHOW MORE</Link>
                 </div>
 
 
