@@ -41,15 +41,11 @@ const Navbar = (props) =>{
                         <li><NavLink activeClassName="active" exact to ="/about">About</NavLink></li>
                         <li><NavLink activeClassName="active" exact to ="/shopping">Shopping</NavLink></li>
                         <li><NavLink activeClassName="active" exact to ="/contact">Contact</NavLink></li>
+                          <li><NavLink activeClassName="active" exact to ="/cart">Cart</NavLink></li>
 
                     </ul>
                 </div>
-                <div className="cart-icon"  >
-                    <NavLink to ="/cart">
-                        <div className="product-count" > {props.count}</div>
-                    <i className="fas fa-shopping-cart" ></i>
-                    </NavLink>
-                </div>
+               
 
                 <div className="nav-icon" onClick={handelClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}></i>                
