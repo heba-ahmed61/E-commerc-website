@@ -243,9 +243,7 @@ filterSize = (e)=>{
 
 
     <BrowserRouter>
-        <Navbar count1={this.state.cartItems.length} count2={this.state.count} count={this.state.cartItems.length} 
-        
-        />
+        <Navbar  />
         <Switch>
         <Route exact path ="/">
           <Home/>
